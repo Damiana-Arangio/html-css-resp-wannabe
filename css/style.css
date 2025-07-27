@@ -130,7 +130,12 @@ img {
 
  /*! VERSIONE TABLET */
  @media screen and (max-width: 768px) {
-    
+
+    .container {
+        width: 100%;
+    }
+
+
  }
 
  /*! VERSIONE SMARTPHONE */

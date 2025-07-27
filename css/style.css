@@ -131,48 +131,78 @@ img {
  /*! VERSIONE TABLET */
  @media screen and (max-width: 768px) {
 
+    /**********************
+        UTILITIES
+    **********************/
+
     /* LAYOUT */
     .container {
         width: 100%;
+        margin-bottom: 0;
     }
  }
 
  /*! VERSIONE SMARTPHONE */
   @media screen and (max-width: 480px) {
 
-    /* GENERAL STYLES */
-    h1 {
-        font-size: 3rem;
+    /**********************
+        GENERAL STYLES
+    **********************/
+
+    html {
+        font-size: 20px;
     }
 
-    h2 {
-        font-size: 2.5rem;
-    }
-
-    h3 {
-        font-size: 2rem;
-    }
-
+    /**********************
+        UTILITIES
+    **********************/
+    
     /* LAYOUT */
     .row {
             display: block;
         }
 
     .col {
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
     }
 
+    /**********************
+        SITE SECTIONS
+    **********************/
+    
+    /* HEADER */
+    .site-header {
+        margin-top: 0;
+        padding-top: 3rem;
+    }
+    
     /* LESSONS SECTION */
+
     .lessons .col {
         width: 100%;
     }
 
-    .text {
-        font-size: 1.3rem;
+    /* STEPS SECTION */
+    .steps {
+        margin: 0;
     }
 
-    /* STEPS SECTION */
     .steps .col {
+        width: 100%;
+    }
+
+    /* WHY US SECTION */
+    .why-us {
+        background-color: #222222;
+        padding-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+    }
+
+    .why-us .col-right {
         width: 100%;
     }
 }

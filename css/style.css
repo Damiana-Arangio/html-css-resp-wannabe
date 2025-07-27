@@ -139,7 +139,20 @@ img {
 
  /*! VERSIONE SMARTPHONE */
   @media screen and (max-width: 480px) {
-    
+
+    /* GENERAL STYLES */
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
     /* LAYOUT */
     .row {
             display: block;
@@ -156,5 +169,10 @@ img {
 
     .text {
         font-size: 1.3rem;
+    }
+
+    /* STEPS SECTION */
+    .steps .col {
+        width: 100%;
     }
 }

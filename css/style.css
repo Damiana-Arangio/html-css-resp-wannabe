@@ -131,14 +131,30 @@ img {
  /*! VERSIONE TABLET */
  @media screen and (max-width: 768px) {
 
+    /* LAYOUT */
     .container {
         width: 100%;
     }
-
-
  }
 
  /*! VERSIONE SMARTPHONE */
   @media screen and (max-width: 480px) {
+    
+    /* LAYOUT */
+    .row {
+            display: block;
+        }
 
-  }
+    .col {
+        margin-bottom: 4rem;
+    }
+
+    /* LESSONS SECTION */
+    .lessons .col {
+        width: 100%;
+    }
+
+    .text {
+        font-size: 1.3rem;
+    }
+}

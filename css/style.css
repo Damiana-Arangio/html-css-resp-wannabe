@@ -159,8 +159,8 @@ img {
     
     /* LAYOUT */
     .row {
-            display: block;
-        }
+        display: block;
+    }
 
     .col {
         padding-bottom: 4rem;
